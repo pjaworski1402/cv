@@ -1875,7 +1875,7 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
 require("particles.js/particles");
 
 var particlesJS = window.particlesJS;
-particlesJS.load("particles-js", "/public/particles.json", function () {
+particlesJS.load("particles-js", "/particles.json", function () {
   console.log("callback - particles.js config loaded");
 });
 window.addEventListener("DOMContentLoaded", function () {
