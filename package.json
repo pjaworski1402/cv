@@ -1,0 +1,26 @@
+{
+  "name": "cv",
+  "version": "0.0.1",
+  "description": "Piotr Jaworski CV",
+  "keywords": [
+    "Piotr",
+    "Jaworski",
+    "CV"
+  ],
+  "license": "",
+  "author": "Piotr Jaworski",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "scss": "node-sass --watch scss -o css --output-style compressed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "particles.js": "^2.0.0"
+  }
+}
